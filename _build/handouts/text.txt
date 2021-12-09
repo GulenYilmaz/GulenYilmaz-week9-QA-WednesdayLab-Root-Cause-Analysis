@@ -1,0 +1,109 @@
+Root Cause Analysis
+
+Good news! A new version of Employee Manager is now available to you!
+Here we have the new Employee Manager version 1.2 documentation: https://devmountain-qa.github.io/employee-manager/1.2_README.html
+—-----------------------------------------------
+Project Summary
+In this project we are building a front end for an employee management system. It should run on any modern browser (post I.E. 8 and similar), and be fully functional, and reasonably styled. Chrome will be our recommended browser. The app can be accessed here.
+Current Desired Functionality
+The application will load a simulated list of employees, and allow modifications to each. Clicking the employee from the list to the side will bring their file up in the editor. Your employee will consist of:
+ID (Whole, positive, and unique number)
+Name (1-30 characters long)
+Phone (10 digits in length)
+Title (1-30 characters long)
+All fields except for ID are editable. When saving a change, it will persist as you access other records and navigate back to the desired employee. The save and cancel buttons will only be accessible when modifications have been made, and the cancel button will revert the employee’s file back to the most recently saved version. Every editable field must be populated to save.
+Change Log for Version 1.2
+Error messages fixed
+Can now save after error is presented
+Add employee functionality added
+Future Functionality
+To be aware of, but not currently implemented
+Phone numbers will be validated 10 digit, area code included, US phone numbers. e.g. (123)456-7890
+The Employee List will reside in a database and be accessed through API integration
+An Add Employee function will be implemented
+A search function to filter the employee list will be available, based on Job Title, Name, and/or ID
+An Email Address field will be added for each employee file
+All fields will be required for any entry/modification
+Disclosure
+This is not an ACTUAL business project - but a project plan to assist Quality Assurance Engineers in their training. Full documentation on the assignment requirements is available in JIRA.
+Contributions
+If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
+Copyright
+© DevMountain LLC, 2017. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+—-----------------------------------------------
+ 
+Take the next 30 minutes and compare your previous Employee Manager notes you have and add in any new information you can pull from the documentation.
+There may be new features added
+Some old issues may have been fixed
+
+Previous Checklist:
+Email field for the contact card
+Searchable to search the employee list
+To be able to log in and out as the user
+UI/Interface
+Wants for the employee-manager site:
+Email field for the contact card
+Searchable to search the employee list
+To be able to log in and out as the user
+Secure database with employee-information
+UI/Interface
+Some old issues have been fixed:
+The Title field must be between 1 and 30 characters long.
+The phone number must be 10 digits long.
+The cancel button works correctly.
+New bugs occured  for the employee-manager site:
+Save button works without any  name.
+
+
+
+Now take some more time and run some of your previous tests again! We’ll get into why we re-run tests in the future. For now the idea is to make sure the features that were previously working are still continuing to work.
+After doing some re-testing and making sure the website is working correctly, make a list of items you would like to see as a user for the Employee Manager.
+List of issues/bug’s 
+Currently unable to add to the list
+Missing Fields
+Save button works without any  name.
+We do not have a place for Email to be input.
+Lack of communication and the client does not know this was a prototype because we did not provide documentation. This could be bad for both the client and our developers; it is certainly a QA issue. 
+
+List of positives:
+We have 
+ID
+Name
+Phone→The phone number must be 10 digits long.
+And Title→The Title field must be between 1 and 30 characters long.
+The cancel button works correctly.
+
+
+Notes on design/user flow
+What features are listed to be added in the docs?
+How do you want to see these features implemented?
+Some of the issues brought up by the customer in a previous lab were not fully addressed, list out some possible reasons that these issues were not addressed.
+Take the next 30 minutes and write out an update to that customer, and how you would take action to address the issues that have not been fixed.
+And lastly, write up a report as if it were being sent to a QA manager giving them updates on all the work you’ve done so far for the Employee Manager.
+
+
+
+
+
+Employee Manager Test Plan Report
+**Overview:**
+Testing the desired functionality of the Employee Manager App
+**Links:**
+“https://devmountain-qa.github.io/employee-manager/1.2_Version/index.html”
+**Test Criteria:**
+-make sure employees are listed
+-each employee should be able to be modified
+-make sure all fields(not Id) are editable
+-make sure that changes persist (save works)
+-clicking emp name will bring up details
+-details should include id, name, phone,title
+-save and cancel should function correctly
+-ID will be a whole, positive number
+
+
+December 08 2021
+Browser: Chrome v91
+OS: Windows 11
+
+
+
