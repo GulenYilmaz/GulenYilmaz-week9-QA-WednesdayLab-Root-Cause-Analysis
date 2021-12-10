@@ -214,5 +214,4 @@ Set upper and lower limits on text entry lengths
 Set telephone number entries to ten digits only
 Planning and Reporting Results https://trello.com/b/Sr1fLIpp/employee-manager-test-plan
 
-
 copy and passed from James Proctor
